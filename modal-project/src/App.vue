@@ -9,7 +9,7 @@
       @closemodal="toggleModal"
     />>
   </div>
-  <button id="button" @click="toggleModal">Open modal</button>
+  <button id="button" @click.shift="toggleModal">Open modal</button>
 </template>
 
 <script type="module">
